@@ -33,6 +33,8 @@ You'll want to attach an event listener to `document.body` and check for `'keydo
 
 When you're testing the code out, be sure to call `init()` to set everything up!
 
+NOTE:  (see below under COMMIT MESSAGE)
+
 Stuck on how to get started? Here's a contrived, short example:
 
 ``` javascript
@@ -69,3 +71,5 @@ Also note that we're calling `parseInt` on the key value. This is because the ev
 ## Resources
 
 - [Konami Code](https://en.wikipedia.org/wiki/Konami_Code)
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/konami-code-lab'>Konami Code Lab</a> on Learn.co and start learning to code for free.</p>
