@@ -36,7 +36,7 @@ When you're testing the code out, be sure to call `init()` to set everything up!
 Stuck on how to get started? Here's a contrived, short example:
 
 ``` javascript
-const alphabet = ['a', 'b', 'c']
+const numberst = [1, 2, 3]
 
 // keep track of index outside of the event handler
 var index = 0
@@ -45,10 +45,10 @@ var index = 0
 function onKeyDownHandler(e) {
   const key = parseInt(e.detail || e.which)
 
-  if (key === alphabet[index]) {
+  if (key === numbers[index]) {
     index++
 
-    if (index === alphabet.length - 1) {
+    if (index ===numbers.length - 1) {
       alert("YOU DID IT!")
       index = 0
     }
@@ -69,3 +69,5 @@ Also note that we're calling `parseInt` on the key value. This is because the ev
 ## Resources
 
 - [Konami Code](https://en.wikipedia.org/wiki/Konami_Code)
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/konami-code-lab'>Konami Code Lab</a> on Learn.co and start learning to code for free.</p>
